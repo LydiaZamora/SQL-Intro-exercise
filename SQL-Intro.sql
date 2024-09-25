@@ -29,7 +29,7 @@ WHERE OnSale = 1;
 SELECT AVG (price) From products; 
 
 SELECT * From employees
-where titles Like '%Geek Squad%' AND MiddleInitial is null;
+where title Like '%Geek Squad%' AND MiddleInitial is null;
 
 SELECT * FROM products
 WHERE stocklevel between 500 and 1200
